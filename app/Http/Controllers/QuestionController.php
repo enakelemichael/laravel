@@ -11,4 +11,8 @@ class QuestionController extends Controller
     {
         return 'This is the list if questions';
     }
+    public function show()
+    {
+        return 'Thus is a detail of a question';
+    }
 }
