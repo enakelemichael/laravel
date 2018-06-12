@@ -43,6 +43,7 @@
 
     <div class="container">
         <h2>12 Answers</h2>
+        @foreach($answers as $answer)
         <div class="answer">
             <div class="answer-left">
                 <div class="user-avatar">
@@ -67,7 +68,7 @@
                     to a database, and got "KeyError [56]". An error which I was unable to find documented anywhere.</p>
             </div>
         </div>
-
+@endforeach
     </div>
 
 </section>
